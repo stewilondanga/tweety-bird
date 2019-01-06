@@ -146,10 +146,11 @@ textarea::placeholder {
   align-items: center;
 }
 
-/*.bottom > span {
-	margin-right: 0.75em;
+.bottom>span {
+  margin-right: 0.75em;
 }
-.warn {
+
+/*.warn {
   color: #c00;
 }
 /* Pre-morphing stage */
