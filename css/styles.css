@@ -115,11 +115,12 @@ button:disabled:active span {
   background-color: transparent;
 }
 
-/*label {
-	display: block;
-	margin-bottom: 0.75em;
+label {
+  display: block;
+  margin-bottom: 0.75em;
 }
-textarea {
+
+/*textarea {
 	border: 0;
 	border-radius: 0.5em;
 	box-shadow: 0 0 0 0.1em #a8ceee inset;
