@@ -150,9 +150,10 @@ textarea::placeholder {
   margin-right: 0.75em;
 }
 
-/*.warn {
+.warn {
   color: #c00;
 }
+
 /* Pre-morphing stage */
 /*.pre-morph > .svgs {
 	visibility: visible;
