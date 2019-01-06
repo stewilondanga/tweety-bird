@@ -80,14 +80,15 @@ button, button span {
   border-radius: 1.5em;
 }
 
-/*button {
-	background-color: #55abee;
-	border: 0;
-	color: #fff;
-	display: inline-block;
-	font-weight: bold;
+button {
+  background-color: #55abee;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
 }
-button span {
+
+/*button span {
 	display: block;
 	padding: 0.75em 1.5em;
 	transition: all 0.1s linear;
