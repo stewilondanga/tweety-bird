@@ -55,16 +55,16 @@ function tweet(e) {
 
   // reset everything
   setTimeout(function() {
-        let ct = el.querySelector("span"),
-          btn = el.querySelector("button");
+    let ct = el.querySelector("span"),
+      btn = el.querySelector("button");
 
-        /*          		el.classList.remove("pre-morph")
-                  		ta.value = "";
-                  		ta.disabled = false;
-                  		ct.innerHTML = ct.getAttribute("data-limit");
-                  		btn.disabled = true;
-                  		tl.pause(0);
-                  	}, 3000);
+    el.classList.remove("pre-morph")
+    ta.value = "";
+    ta.disabled = false;
+    ct.innerHTML = ct.getAttribute("data-limit");
+    btn.disabled = true;
+    tl.pause(0);
+  }, 3000);
 
-                  	e.preventDefault();
-                  }
+  e.preventDefault();
+}
