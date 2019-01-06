@@ -36,35 +36,35 @@ function tweet(e) {
   el.classList.add("pre-morph");
   ta.disabled = true;
 
-  /*        	// bird animation
-          	var tl = new TimelineMax();
-          	tl
-          		.to("#b1", 0.2, {
-          			delay: 0.2,
-          			morphSVG:"#b2",
-          			ease: Linear.easeIn
-          		})
-          		.to("#b1", 0.25, {
-          			morphSVG:"#b3",
-          			ease: Linear.easeIn
-          		})
-          		.to("#b1", 0, {
-          			delay: 0.05,
-          			opacity: 0
-          		});
+  // bird animation
+  var tl = new TimelineMax();
+  tl
+    .to("#b1", 0.2, {
+      delay: 0.2,
+      morphSVG: "#b2",
+      ease: Linear.easeIn
+    })
+    .to("#b1", 0.25, {
+      morphSVG: "#b3",
+      ease: Linear.easeIn
+    })
+    .to("#b1", 0, {
+      delay: 0.05,
+      opacity: 0
+    });
 
-          	// reset everything
-          	setTimeout(function(){
-          		let ct = el.querySelector("span"),
-          			btn = el.querySelector("button");
+  /*          	// reset everything
+            	setTimeout(function(){
+            		let ct = el.querySelector("span"),
+            			btn = el.querySelector("button");
 
-          		el.classList.remove("pre-morph")
-          		ta.value = "";
-          		ta.disabled = false;
-          		ct.innerHTML = ct.getAttribute("data-limit");
-          		btn.disabled = true;
-          		tl.pause(0);
-          	}, 3000);
+            		el.classList.remove("pre-morph")
+            		ta.value = "";
+            		ta.disabled = false;
+            		ct.innerHTML = ct.getAttribute("data-limit");
+            		btn.disabled = true;
+            		tl.pause(0);
+            	}, 3000);
 
-          	e.preventDefault();
-          }
+            	e.preventDefault();
+            }
