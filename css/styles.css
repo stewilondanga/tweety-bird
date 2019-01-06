@@ -190,12 +190,23 @@ textarea::placeholder {
   }
 }
 
-/*@keyframes flyAway {
-	from { transform: translate(0,-4em) }
-	50% { transform: translate(0,-6em) scale(1); opacity: 1 }
-	to { transform: translate(30em,-9em) scale(0); opacity: 0 }
+@keyframes flyAway {
+  from {
+    transform: translate(0, -4em)
+  }
+
+  50% {
+    transform: translate(0, -6em) scale(1);
+    opacity: 1
+  }
+
+  to {
+    transform: translate(30em, -9em) scale(0);
+    opacity: 0
+  }
 }
-@keyframes flap {
+
+/*@keyframes flap {
     from, to {
         transform: translate(7.75em, 4.99em) rotateY(0) translate(-7.75em, -4.99em);
     }
