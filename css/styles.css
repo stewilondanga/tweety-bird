@@ -131,11 +131,12 @@ textarea {
   height: 5em;
 }
 
-/*textarea:focus {
-	box-shadow: 0 0 0 0.1em #55abee inset;
-	outline: 0;
+textarea:focus {
+  box-shadow: 0 0 0 0.1em #55abee inset;
+  outline: 0;
 }
-textarea::placeholder {
+
+/*textarea::placeholder {
 	color: #aaa;
 }
 .bottom {
