@@ -53,11 +53,12 @@ svg {
   visibility: hidden;
 }
 
-/*svg:not(:last-of-type) {
-	width: 30em;
-	height: 17em;
+svg:not(:last-of-type) {
+  width: 30em;
+  height: 17em;
 }
-svg:last-of-type {
+
+/*svg:last-of-type {
 	top: 8.5em;
 	left: 15em;
 	width: 14.67em;
