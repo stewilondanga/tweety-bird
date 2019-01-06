@@ -155,11 +155,12 @@ textarea::placeholder {
 }
 
 /* Pre-morphing stage */
-/*.pre-morph > .svgs {
-	visibility: visible;
-	animation: flyAway 1.5s 1s ease-in-out forwards;
+.pre-morph>.svgs {
+  visibility: visible;
+  animation: flyAway 1.5s 1s ease-in-out forwards;
 }
-.pre-morph svg:last-of-type {
+
+/*.pre-morph svg:last-of-type {
 	animation: appear 1s 0.65s linear forwards;
 }
 .pre-morph svg:last-of-type path:last-child {
