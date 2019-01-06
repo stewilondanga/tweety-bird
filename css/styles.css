@@ -38,13 +38,14 @@ form, svg, .svgs {
 }
 
 /* SVGs */
-/*.svgs {
-	top: 0;
-	left: 0;
-	transform: translateY(-4em);
-	z-index: -1;
+.svgs {
+  top: 0;
+  left: 0;
+  transform: translateY(-4em);
+  z-index: -1;
 }
-svg {
+
+/*svg {
 	display: block;
 }
 .svgs, svg:nth-of-type(n + 2):nth-of-type(-n + 4) {
