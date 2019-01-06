@@ -29,11 +29,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-form, svg, .svgs {
+/*form, svg, .svgs {
 	position: absolute;
 }
 /* SVGs */
