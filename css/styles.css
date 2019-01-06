@@ -140,12 +140,13 @@ textarea::placeholder {
   color: #aaa;
 }
 
-/*.bottom {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.bottom > span {
+
+/*.bottom > span {
 	margin-right: 0.75em;
 }
 .warn {
