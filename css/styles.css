@@ -206,16 +206,17 @@ textarea::placeholder {
   }
 }
 
-/*@keyframes flap {
-    from, to {
-        transform: translate(7.75em, 4.99em) rotateY(0) translate(-7.75em, -4.99em);
-    }
-    50% {
-        transform: translate(7.75em, 4.99em) rotateY(160deg) translate(-7.75em, -4.99em);
-	}
+@keyframes flap {
+  from, to {
+    transform: translate(7.75em, 4.99em) rotateY(0) translate(-7.75em, -4.99em);
+  }
+
+  50% {
+    transform: translate(7.75em, 4.99em) rotateY(160deg) translate(-7.75em, -4.99em);
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
