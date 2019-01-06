@@ -7,12 +7,12 @@ var navigate = (function() {
   });
 })();
 
-/*document.addEventListener("DOMContentLoaded", function(){
-	this.querySelector("textarea").addEventListener("keydown",ctChars);
-	this.querySelector("form").addEventListener("submit",tweet);
+document.addEventListener("DOMContentLoaded", function() {
+  this.querySelector("textarea").addEventListener("keydown", ctChars);
+  this.querySelector("form").addEventListener("submit", tweet);
 });
 
-function ctChars() {
+/*function ctChars() {
 	let el = this,
 		to = setTimeout(function() {
 			let len = el.value.length,
