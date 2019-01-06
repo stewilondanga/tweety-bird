@@ -15,21 +15,21 @@ document.addEventListener("DOMContentLoaded", function() {
 function ctChars() {
   let el = this,
     to = setTimeout(function() {
-        let len = el.value.length,
-          ct = document.querySelector("span"),
-          btn = document.querySelector("button"),
-          warnAt = 20,
-          max = ct.getAttribute("data-limit");
+      let len = el.value.length,
+        ct = document.querySelector("span"),
+        btn = document.querySelector("button"),
+        warnAt = 20,
+        max = ct.getAttribute("data-limit");
 
-        /*			// characters left
-        			ct.innerHTML = max - len;
-        			// warn about reaching limit
-        			ct.className = len > max - warnAt ? "warn" : "";
-        			btn.disabled = len == 0 ? true : false;
-        			clearTimeout(to);
-        		}, 1);
-        }
-        function tweet(e) {
+      // characters left
+      ct.innerHTML = max - len;
+      // warn about reaching limit
+      ct.className = len > max - warnAt ? "warn" : "";
+      btn.disabled = len == 0 ? true : false;
+      clearTimeout(to);
+    }, 1);
+}
+/*        function tweet(e) {
         	let el = this,
         		ta = el.querySelector("textarea");
         	el.classList.add("pre-morph");
