@@ -184,10 +184,13 @@ textarea::placeholder {
   }
 }
 
-/*@keyframes appear {
-	from, to { visibility: visible }
+@keyframes appear {
+  from, to {
+    visibility: visible
+  }
 }
-@keyframes flyAway {
+
+/*@keyframes flyAway {
 	from { transform: translate(0,-4em) }
 	50% { transform: translate(0,-6em) scale(1); opacity: 1 }
 	to { transform: translate(30em,-9em) scale(0); opacity: 0 }
