@@ -58,13 +58,14 @@ svg:not(:last-of-type) {
   height: 17em;
 }
 
-/*svg:last-of-type {
-	top: 8.5em;
-	left: 15em;
-	width: 14.67em;
-	height: 11.88em;
-	transform: translate(-50%,-50%);
+svg:last-of-type {
+  top: 8.5em;
+  left: 15em;
+  width: 14.67em;
+  height: 11.88em;
+  transform: translate(-50%, -50%);
 }
+
 /* Tweet form */
 /*form {
 	margin: auto;
