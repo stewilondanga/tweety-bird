@@ -106,10 +106,11 @@ button span:focus {
   outline: 0;
 }
 
-/*button:disabled {
-	opacity: 0.5;
+button:disabled {
+  opacity: 0.5;
 }
-button:disabled:hover span,
+
+/*button:disabled:hover span,
 button:disabled:active span {
 	background-color: transparent;
 }
