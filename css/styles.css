@@ -164,10 +164,11 @@ textarea::placeholder {
   animation: appear 1s 0.65s linear forwards;
 }
 
-/*.pre-morph svg:last-of-type path:last-child {
-	animation: flap 0.5s 1s linear infinite;
+.pre-morph svg:last-of-type path:last-child {
+  animation: flap 0.5s 1s linear infinite;
 }
-.pre-morph > *:nth-child(n + 1):nth-child(-n + 3) {
+
+/*.pre-morph > *:nth-child(n + 1):nth-child(-n + 3) {
 	animation: fadeOut 0.2s linear forwards;
 }
 @keyframes fadeOut {
