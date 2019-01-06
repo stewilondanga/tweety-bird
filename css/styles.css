@@ -49,10 +49,11 @@ svg {
   display: block;
 }
 
-/*.svgs, svg:nth-of-type(n + 2):nth-of-type(-n + 4) {
-    visibility: hidden;
+.svgs, svg:nth-of-type(n + 2):nth-of-type(-n + 4) {
+  visibility: hidden;
 }
-svg:not(:last-of-type) {
+
+/*svg:not(:last-of-type) {
 	width: 30em;
 	height: 17em;
 }
