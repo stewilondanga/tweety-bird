@@ -110,11 +110,12 @@ button:disabled {
   opacity: 0.5;
 }
 
-/*button:disabled:hover span,
+button:disabled:hover span,
 button:disabled:active span {
-	background-color: transparent;
+  background-color: transparent;
 }
-label {
+
+/*label {
 	display: block;
 	margin-bottom: 0.75em;
 }
