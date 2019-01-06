@@ -9,6 +9,10 @@ body, button, textarea {
   font-size: 18px;
 }
 
+body, textarea {
+  color: #222;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -32,9 +36,6 @@ body, button, textarea {
   height: 1.5em;
 }
 
-body, textarea {
-	color: #222;
-}
 body {
 	height: 100vh;
 	overflow: hidden;
