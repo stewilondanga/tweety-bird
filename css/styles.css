@@ -136,10 +136,11 @@ textarea:focus {
   outline: 0;
 }
 
-/*textarea::placeholder {
-	color: #aaa;
+textarea::placeholder {
+  color: #aaa;
 }
-.bottom {
+
+/*.bottom {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
