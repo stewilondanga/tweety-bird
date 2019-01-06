@@ -45,10 +45,11 @@ form, svg, .svgs {
   z-index: -1;
 }
 
-/*svg {
-	display: block;
+svg {
+  display: block;
 }
-.svgs, svg:nth-of-type(n + 2):nth-of-type(-n + 4) {
+
+/*.svgs, svg:nth-of-type(n + 2):nth-of-type(-n + 4) {
     visibility: hidden;
 }
 svg:not(:last-of-type) {
