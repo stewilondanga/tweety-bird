@@ -172,11 +172,19 @@ textarea::placeholder {
   animation: fadeOut 0.2s linear forwards;
 }
 
-/*@keyframes fadeOut {
-	from { opacity: 1; visibility: visible }
-	to { opacity: 0; visibility: hidden }
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    visibility: visible
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden
+  }
 }
-@keyframes appear {
+
+/*@keyframes appear {
 	from, to { visibility: visible }
 }
 @keyframes flyAway {
